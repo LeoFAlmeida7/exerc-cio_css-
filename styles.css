@@ -1,0 +1,74 @@
+
+.container {
+    display: flex;
+    background-color: rgba(0, 136, 255, 0.055);
+    color: #643b3b;
+    text-decoration: underline;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li a:hover{
+    color: gold;
+    font-size: 18px;
+}
+
+.esportes {
+    background-color: #80c2ff70;
+}
+
+.economia {
+    background-color: #9a2eff8f ;
+}
+
+.games {
+    background-color: #ff61cab4
+}
+
+.agro {
+    background-color: rgb(108, 255, 157);
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ color: black;
+ background-color: rgba(0, 136, 255, 0.055);
+
+}
+
+body img{
+    width: 500px;
+}
+
+h2{
+    align-items: center;
+    font-size: 35px;
+}
+
+section h3{
+    font-size: 22px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h3:hover{
+    color: gray;
+}
+
+img:hover {
+    width: 600px;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+}
+
+section a:hover{
+    color: gold;
+    font-size: 20px;
+}

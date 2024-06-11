@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-    <header>
+    <header class="container">
         <h1>Meu portal de notícias</h1>
-        <nav>
+        <nav class="menu">
             <ul>
-                <li>
+                <li class="opcoes">
                     <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
                 </li>
-                <li>
+                <li class="opcoes">
                     <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                </li>
+                <li class="opcoes">
+                    <a href="#games" title="Ir para seção de games">Games</a>
+                </li>
+                <li class="opcoes">
+                    <a href="#agro" title="Ir para seção de agronomia">Agronomia</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="esportes">
         <h2>Esportes</h2>
         <article>
             <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
@@ -56,19 +62,8 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
     </section>
-    <section>
+    <section class="economia">
         <h2>Economia</h2>
         <article>
             <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
@@ -102,6 +97,74 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+    </section>
+    <section class="games">
+        <h2>Games</h2>
+        <article>
+            <img src="./imagens/games.jpg" alt="Bonecos de cartoon e consoles de vídeo games retro" />
+            <header>
+                <time>08/04/2024 às 17:35</time>
+            </header>
+            <h3>Como surgiu os jogos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorem architecto eligendi, aperiam ea mollitia harum reprehenderit quae ad, dolorum pariatur sint ut tenetur totam rem, deserunt repellat nobis laborum!</p>
+            <a href="#" title="Leia a mais sobre a matéria"> Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/games 2.jpg" alt="a imagem mostra os primeiros controles de vídeo games até os mais novos, em ordem e evolução.">
+            <header>
+                <time>08/05/2024 às 14:23</time>
+            </header>
+            <h3>Como os games evoluíram</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora repudiandae porro possimus provident nulla iure aut aperiam exercitationem suscipit fugiat cumque, quae assumenda amet delectus? Dignissimos accusantium tenetur dicta!</p>
+            <a href="#" title="Saiba mais sobre a matéria">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/games 3.jpg" alt="Bonecos de jogos retro">
+            <header>
+                <time>09/08/2024 às 21:35</time>
+            </header>
+            <h3>Jogos mais jogados</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi consectetur tenetur placeat repudiandae blanditiis exercitationem in consequuntur libero, reprehenderit natus vel deleniti laboriosam ipsam quasi animi eligendi optio ipsa.
+            </p>
+            <a href="#" title="Saiba mais sobre a matéria">Ler mais</a>
+        </article>
+    </section>
+    <section class="agro">
+        <h2>Agronomia</h2>
+        <article>
+            <img src="./imagens/agro.jpg" alt="Imagem mostra objetos utilizado no dia dia do agronegocio">
+            <header>
+                <time>12/06/2024 às 09:30</time>
+            </header>
+            <h3>Agro sustentavel</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus at architecto quaerat ipsam veritatis maxime nostrum, deserunt delectus nesciunt est eligendi debitis cumque, distinctio a ad maiores ex? Commodi, rerum.
+            </p>
+            <a href="#" title="Saiba mais sobre a matéria">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/agro 2.jpg" alt="Imagem de um trator fertilizando o campo">
+            <header>
+                <time>10/06/2024 às 13:40</time>
+            </header>
+            <h3>Como ter um plantio lucrativo</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ad perferendis et consectetur tempore sint laboriosam omnis earum placeat fugiat libero tempora repellendus inventore quos pariatur facilis aliquam, a natus.
+            </p>
+            <a href="#" title="Saiba mais sobre a matéria">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/agro 3.jpg" alt="Uma mão de um ser humano colocando terra encima de uma mudinha de planta">
+            <header>
+                <time>11/06/2024 ás 05:35</time>
+            </header>
+            <h3>Como ter uma planta saudável</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, velit? Mollitia, molestiae. Consectetur voluptas quam nisi non, natus autem nesciunt illum eius ipsum reiciendis modi repudiandae libero beatae sed nobis.
+            </p>
+            <a href="#" title="Saiba mais sobre a matéria">Ler mais</a>
         </article>
     </section>
 </body>
