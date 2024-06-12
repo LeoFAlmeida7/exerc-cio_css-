@@ -98,10 +98,11 @@ img:hover {
     width: 600px;
 }
 
-section a {
+a {
     text-decoration: none;
     color: white;
 }
+
 
 section a:hover{
     color: gold;
