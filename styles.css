@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 
 .container {
+    padding: 30px;
     display: flex;
-    background-color: rgba(0, 136, 255, 0.055);
-    color: #643b3b;
+    background-image: url(./imagens/fundonoti.jpg);
+    color: #dffffa;
     text-decoration: underline;
     justify-content: space-around;
     align-items: center;
@@ -12,27 +21,53 @@ ul li a:hover{
     font-size: 18px;
 }
 
+
+main p:hover {
+    color: gold;
+}
+
+main h2:hover {
+    color: gold;
+}
+
 .esportes {
-    background-color: #80c2ff70;
+    padding: 30px;
+    background-image: url(./imagens/fundoespo.jpg);
+    color: white;
+}
+
+.cN {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.NoticiaSportes {
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .economia {
-    background-color: #9a2eff8f ;
+    padding: 30px;
+    background-image: url(./imagens/fundomoney.png);
+    color: rgb(255, 255, 255);
 }
 
 .games {
-    background-color: #ff61cab4
+    padding: 30px;
+    background-image: url(./imagens/fundogame.jpg);
+    color: white;
 }
 
 .agro {
-    background-color: rgb(108, 255, 157);
+    padding: 30px;
+    background-image: url(./imagens/fundoagri.jpg);
+    color: white;
 }
 
 body{
  font-family: Arial, Helvetica, sans-serif;
- color: black;
- background-color: rgba(0, 136, 255, 0.055);
-
 }
 
 body img{
@@ -56,7 +91,7 @@ article {
 }
 
 h3:hover{
-    color: rgb(219, 219, 219);
+    color: gold;
 }
 
 img:hover {
